@@ -1,0 +1,44 @@
+#nav_area {
+    overflow: hidden;
+  }
+  #logo_area {
+    float: left;
+  }
+  ul.skinny {
+    float: right;
+    width:650px;
+  }
+  ul.skinny li {
+    display: inline-block;
+    vertical-align:middle;
+    text-align:center;
+    border-left:1px solid white;
+    width: 150px;
+  }
+  ul.skinny li:first-child { border:none; }
+  ul.skinny li a {
+    display:block;
+    text-decoration:none;
+  }
+
+  .navlogo{
+      height: 40px;
+      max-width: auto;
+  }
+
+  .contents{
+    
+  }
+
+  .contents-child{
+      height: 600px;
+      width: 80%;
+      
+  margin: 10px auto;
+  width:95%;
+  }
+
+  .MSClogo{
+      width: 15%;
+      max-height: auto;
+  }
