@@ -22,8 +22,10 @@
   }
 
   .navlogo{
-      height: 40px;
+      height: 35px;
       max-width: auto;
+      margin-top: 10px;
+      margin-left: 10px;
   }
 
   .contents{
@@ -38,7 +40,23 @@
   width:95%;
   }
 
-  .MSClogo{
-      width: 15%;
-      max-height: auto;
+  .contents-child-MSC{
+    height: 600px;
+    width: 80%;
+    background-image: url(img/MSClogo.png);
+  margin: 10px auto;
+  width:95%;
+  }
+ 
+  .contents-child-MP{
+    height: 600px;
+    width: 80%;
+    background-image: url(img/MPlogo.png);
+  margin: 10px auto;
+  width:95%;
+  }
+
+
+  li:hover{
+    color:#0090ff;
   }
